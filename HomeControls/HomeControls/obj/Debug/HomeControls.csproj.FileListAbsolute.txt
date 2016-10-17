@@ -1,0 +1,4 @@
+C:\Users\Kelly\Dropbox\_IOT\HomeControls\HomeControls\bin\HomeControls.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls\HomeControls\bin\HomeControls.pdb
+C:\Users\Kelly\Dropbox\_IOT\HomeControls\HomeControls\obj\Debug\HomeControls.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls\HomeControls\obj\Debug\HomeControls.pdb

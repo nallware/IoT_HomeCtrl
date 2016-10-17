@@ -1,0 +1,83 @@
+//Includes
+
+int light = D1;
+int basementLight(String command);
+int testLight(String nm);
+int timerOn(String mn);
+int timerOff(String mn);
+
+void setup() {
+    Serial.begin(9600);
+    pinMode(light, OUTPUT);
+    pinMode(light, INPUT);
+    Particle.function("bsmtLight", bsmtLight);
+    Particle.function("testLight", testLight);
+    Particle.function("timerOn", timerOn);
+    Particle.function("timerOff", timerOff);
+}
+
+void loop() {
+//digitalWrite(light1, HIGH);
+//delay(500);
+//digitalWrite(light1, LOW);
+}
+
+int bsmtLight(String command)
+{
+    if(command == "on")
+    {
+        digitalWrite(light, HIGH);
+        return 1;    
+    }
+    else if (command == "off")
+    {
+        digitalWrite(light, LOW);
+        return -1;
+    }
+}
+
+
+int testLight(String nm)
+{
+    int num = nm.toInt();
+    digitalWrite(light, LOW);
+    delay(3000);
+    
+    for(int x = 0; x < num; x++)
+    {
+        digitalWrite(light, HIGH);
+        delay(500);
+        digitalWrite(light, LOW);
+        delay(500);
+    }
+    return 1;
+}
+
+int timerOn(String mn)
+{
+    int mins = mn.toInt();
+    digitalWrite(light, HIGH);
+    for(int x = 0; x < mins*60; x++)
+    {
+        delay(1000);
+    }
+    digitalWrite(light, LOW);
+    return 1;
+}
+
+
+int timerOff(String mn)
+{
+    int mins = mn.toInt();
+    digitalWrite(light, LOW);
+    for(int x = 0; x < mins*60; x++)
+    {
+        delay(1000);
+    }
+    digitalWrite(light, HIGH);
+    return 1;
+}
+
+
+
+
