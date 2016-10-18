@@ -385,8 +385,9 @@ namespace Particle.SDK
             }
         }
 
+        
         /// <summary>
-        /// Retrieve a variable from a device
+        //TODO: Retrieve a variable from a device
         /// </summary>
         /// <param name="variable">Variable name</param>
         /// <returns>Returns a ParticleVariableResponse</returns>
@@ -473,7 +474,7 @@ namespace Particle.SDK
         }
 
         /// <summary>
-        /// Call a function on a device
+        //TODO: Call a function on a device
         /// </summary>
         /// <param name="function">Function to call</param>
         /// <param name="arg">Arguments to send to function</param>
