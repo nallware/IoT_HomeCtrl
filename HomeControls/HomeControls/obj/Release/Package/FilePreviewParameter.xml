@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="nall.info" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\knall\\Documents\\DropBox\\Dropbox\\_IOT\\HomeControls_GIT\\HomeControls\\HomeControls\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\knall\\Documents\\DropBox\\Dropbox\\_IOT\\HomeControls_GIT\\HomeControls\\HomeControls\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApplicationServices-Web.config Connection String" description="" value="data source=.\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnetdb.mdf;User Instance=true" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\knall\\Documents\\DropBox\\Dropbox\\_IOT\\HomeControls_GIT\\HomeControls\\HomeControls\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationServices']/@connectionString" />
+  </parameter>
+  <parameter name="KatKeep-Web.config Connection String" description="" value="Data Source=184.168.47.15;Initial Catalog=nallinfo_main;Persist Security Info=True;User ID=nalladmin;Password=gonadd5440" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\knall\\Documents\\DropBox\\Dropbox\\_IOT\\HomeControls_GIT\\HomeControls\\HomeControls\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KatKeep']/@connectionString" />
+  </parameter>
+</parameters>

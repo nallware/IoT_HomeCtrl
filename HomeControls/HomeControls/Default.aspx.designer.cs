@@ -13,6 +13,24 @@ namespace HomeControls {
     public partial class _Default {
         
         /// <summary>
+        /// lblStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatus;
+        
+        /// <summary>
+        /// tbPasscode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbPasscode;
+        
+        /// <summary>
         /// btnLightOn control.
         /// </summary>
         /// <remarks>
@@ -31,13 +49,13 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.Button btnLightOff;
         
         /// <summary>
-        /// tbTest control.
+        /// tbBlinks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbTest;
+        protected global::System.Web.UI.WebControls.TextBox tbBlinks;
         
         /// <summary>
         /// btnTest control.
@@ -49,6 +67,15 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.Button btnTest;
         
         /// <summary>
+        /// btnCheckLight control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCheckLight;
+        
+        /// <summary>
         /// tbTimerOn control.
         /// </summary>
         /// <remarks>
@@ -58,13 +85,13 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.TextBox tbTimerOn;
         
         /// <summary>
-        /// btnTimerOn control.
+        /// hlTimerOn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTimerOn;
+        protected global::System.Web.UI.WebControls.HyperLink hlTimerOn;
         
         /// <summary>
         /// tbTimerOff control.
@@ -76,12 +103,12 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.TextBox tbTimerOff;
         
         /// <summary>
-        /// btnTimerOff control.
+        /// hlTimerOff control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTimerOff;
+        protected global::System.Web.UI.WebControls.HyperLink hlTimerOff;
     }
 }

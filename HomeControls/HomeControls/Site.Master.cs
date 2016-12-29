@@ -11,7 +11,17 @@ namespace HomeControls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var firstname = Session["firstname"];
+            if (firstname != null)
+            {
+                lblUser.Text = "Hello, "+Session["firstname"].ToString();
+            }
+        }
 
+        protected void lbLogout_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Response.Redirect("KatLogin.aspx");
         }
     }
 }
