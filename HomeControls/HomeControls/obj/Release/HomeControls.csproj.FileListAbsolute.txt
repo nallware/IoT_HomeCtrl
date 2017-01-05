@@ -11,3 +11,16 @@ C:\Users\knall\Documents\DropBox\Dropbox\_IOT\HomeControls_GIT\HomeControls\Home
 C:\Users\knall\Documents\DropBox\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.csprojResolveAssemblyReference.cache
 C:\Users\knall\Documents\DropBox\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.dll
 C:\Users\knall\Documents\DropBox\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.pdb
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\HomeControls.dll.config
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\HomeControls.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\HomeControls.pdb
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\Newtonsoft.Json.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\System.Net.Http.Extensions.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\System.Net.Http.Primitives.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\Newtonsoft.Json.xml
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\System.Net.Http.Extensions.xml
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\bin\System.Net.Http.Primitives.xml
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.csproj.App.config
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.csprojResolveAssemblyReference.cache
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.dll
+C:\Users\Kelly\Dropbox\_IOT\HomeControls_GIT\HomeControls\HomeControls\obj\Release\HomeControls.pdb

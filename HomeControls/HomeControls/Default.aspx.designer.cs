@@ -22,6 +22,15 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.Label lblStatus;
         
         /// <summary>
+        /// lblGarage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGarage;
+        
+        /// <summary>
         /// tbPasscode control.
         /// </summary>
         /// <remarks>
@@ -67,48 +76,12 @@ namespace HomeControls {
         protected global::System.Web.UI.WebControls.Button btnTest;
         
         /// <summary>
-        /// btnCheckLight control.
+        /// btnGarage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCheckLight;
-        
-        /// <summary>
-        /// tbTimerOn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbTimerOn;
-        
-        /// <summary>
-        /// hlTimerOn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlTimerOn;
-        
-        /// <summary>
-        /// tbTimerOff control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbTimerOff;
-        
-        /// <summary>
-        /// hlTimerOff control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hlTimerOff;
+        protected global::System.Web.UI.WebControls.Button btnGarage;
     }
 }
